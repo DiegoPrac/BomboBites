@@ -1,0 +1,5 @@
+[
+  {"id":"choco","name":"Bombo Choco Bites","shortName":"Choco","label":"THE CLASSIC CRUSH","description":"Filling cokelat creamy untuk kamu yang selalu balik ke rasa klasik.","note":"Cokelat · creamy · familiar","className":"choco","price":8000},
+  {"id":"matcha","name":"Bombo Matcha Bites","shortName":"Matcha","label":"THE GREEN FAVORITE","description":"Karakter matcha dengan filling creamy. Teman jeda buat pencinta green tea.","note":"Matcha · creamy · khas","className":"matcha","price":8000},
+  {"id":"ube","name":"Bombo Ubi Ungu Bites","shortName":"Ubi Ungu","label":"THE PURPLE PICK","description":"Filling ubi ungu dengan manis khas dan warna yang bikin penasaran.","note":"Ubi ungu · creamy · unik","className":"ube","price":8000}
+]
