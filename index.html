@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kenalan dengan BomboBites: bomboloni adonan bayam dengan filling matcha, choco, dan ubi ungu. Pilih rasa dan cek info pre-order kami.">
+  <meta name="theme-color" content="#881c31">
+  <title>BomboBites — A little bite of happiness</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="config.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#menu">Langsung ke pilihan rasa</a>
+  <header class="header">
+    <nav class="nav wrap" aria-label="Navigasi utama">
+      <a class="brand" href="#home" aria-label="BomboBites beranda">bombo<span>bites</span><i aria-hidden="true">✦</i></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#menu">Pilihan rasa</a><a href="#cerita">Cerita kami</a><a href="#preorder">Cara pesan</a>
+        <a class="nav-ig" data-instagram target="_blank" rel="noopener noreferrer" href="https://instagram.com/bomboo_bites">Instagram ↗</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-grid wrap">
+        <div class="hero-copy">
+          <p class="eyebrow"><span aria-hidden="true">✦</span> SMALL BITES, BIG HAPPY</p>
+          <h1 id="hero-title">Satu gigitan.<br>Langsung <em>happy.</em></h1>
+          <p class="hero-description">Bomboloni lembut dengan adonan bayam dan filling creamy. Teman manis buat jeda di antara kesibukanmu.</p>
+          <div class="hero-actions"><a class="button primary" href="#menu">Temukan rasa favorit</a><a class="text-link" href="https://forms.gle/V3x5QW4d4DjhM1Rh6" target="_blank" rel="noopener noreferrer">Pesan sekarang ↗</a></div>
+        </div>
+        <div class="hero-art" data-parallax>
+          <div class="art-frame"><img src="assets/bomboloni.png" width="1024" height="1024" alt="Tiga bomboloni dengan filling choco, matcha, dan ubi ungu" fetchpriority="high"></div>
+          <span class="art-sticker sticker-top">made for<br><b>your sweet break</b></span>
+          <span class="art-sticker sticker-bottom">soft outside.<br><b>creamy inside.</b></span>
+          <span class="art-spark spark-one" aria-hidden="true">✦</span><span class="art-spark spark-two" aria-hidden="true">✷</span>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#menu">Kenalan dengan trio rasa <span aria-hidden="true">↓</span></a>
+    </section>
+    <div class="ticker" aria-hidden="true"><div class="ticker-track"><span>SOFT & CREAMY ✦ MATCHA ✦ CHOCO ✦ UBI UNGU ✦ MADE WITH BAYAM ✦ </span><span>SOFT & CREAMY ✦ MATCHA ✦ CHOCO ✦ UBI UNGU ✦ MADE WITH BAYAM ✦ </span></div></div>
+    <section class="menu-section section" id="menu" aria-labelledby="menu-title">
+      <div class="wrap">
+        <div class="section-head reveal"><div><p class="eyebrow">THE SWEET TRIO</p><h2 id="menu-title">Satu aja,<br><em>mana cukup?</em></h2></div><div class="menu-intro"><p>Tim cokelat, matcha, atau ubi ungu?<br>Geser dulu, baru tentukan favoritmu.</p><div class="slider-controls"><button id="prev-flavor" class="round-button" aria-label="Geser ke rasa sebelumnya">←</button><button id="next-flavor" class="round-button" aria-label="Geser ke rasa berikutnya">→</button></div></div></div>
+        <p id="menu-status" class="menu-status" role="status" aria-live="polite">Menyiapkan pilihan rasa…</p>
+        <div class="flavor-slider" id="flavor-slider" aria-label="Katalog rasa, geser untuk melihat semua pilihan" tabindex="0"></div>
+        <p class="price-note">Rp8.000/buah untuk Choco, Matcha, dan Ubi Ungu. Tulis rasa serta jumlah pesanan di form pre-order.</p>
+      </div>
+    </section>
+    <section class="story-section section" id="cerita" aria-labelledby="story-title">
+      <div class="story-grid wrap">
+        <div class="story-poster reveal"><span class="poster-label">A LITTLE DIFFERENT</span><p>Lagi pengen makan cemilan <em>yang ada kandungan sayurnya?</em></p><span class="poster-flower" aria-hidden="true">✷</span></div>
+        <div class="story-copy reveal"><p class="eyebrow">KENALAN DULU, YUK</p><h2 id="story-title">Familiar rasanya.<br><em>Unik ceritanya.</em></h2><p>BomboBites berangkat dari ide sederhana: bikin camilan yang familiar jadi lebih menarik. Kami memilih adonan bayam sebagai identitas, lalu memadukannya dengan tiga filling yang punya karakter masing-masing.</p><p>Cocok buat teman ngobrol, jeda belajar, atau camilan bareng teman. Kamu bisa pilih satu rasa, atau coba ketiganya.</p><div class="story-points"><div><span>01</span><p><b>Adonan bayam</b><br>Pembeda di balik setiap gigitan.</p></div><div><span>02</span><p><b>Filling yang creamy</b><br>Choco, matcha, dan ubi ungu.</p></div><div><span>03</span><p><b>Buat nemenin waktu santaimu</b><br>Manisnya pas untuk dinikmati bareng.</p></div></div></div>
+      </div>
+    </section>
+    <section class="order-section section" id="preorder" aria-labelledby="order-title">
+      <div class="wrap">
+        <div class="order-heading reveal"><p class="eyebrow">YOUR NEXT SWEET BREAK</p><h2 id="order-title">Pilih isian<br><em>favoritmu!</em></h2><p>Tiga langkah kecil buat pesan BomboBites.</p></div>
+        <ol class="order-steps reveal"><li><span class="step-number">01</span><h3>Pilih rasa</h3><p>Lihat trio rasa kami dan tentukan favoritmu.</p></li><li><span class="step-number">02</span><h3>Isi form pre-order</h3><p>Isi nama, nomor WhatsApp, serta pesanan dengan format Choco x 1 atau nama rasa lain x jumlah.</p></li><li><span class="step-number">03</span><h3>Bayar &amp; ambil pesanan</h3><p>Bayar lewat QRIS di form dan unggah bukti pembayaran. Ambil pesanan pada 15 Oktober 2026 di FASILKOM.</p></li></ol>
+        <div class="order-ticket reveal"><div><span class="availability" id="order-status">Pre-order dibuka</span><h3>Sudah ketemu favoritmu?</h3><p id="order-description">PO ditutup 14 Oktober 2026. Pengambilan 15 Oktober 2026 di FASILKOM.</p></div><div class="ticket-actions"><a id="form-link" class="button primary" href="https://forms.gle/V3x5QW4d4DjhM1Rh6" target="_blank" rel="noopener noreferrer">Isi form pre-order</a><a class="button secondary" data-instagram href="https://instagram.com/bomboo_bites" target="_blank" rel="noopener noreferrer">Kunjungi Instagram</a></div></div>
+      </div>
+    </section>
+    <section class="faq-section section wrap" aria-labelledby="faq-title"><div class="faq-heading reveal"><p class="eyebrow">SEBELUM PESAN</p><h2 id="faq-title">Biar makin <em>kenal.</em></h2></div><div class="faq-list reveal"><details><summary>Apa yang bikin BomboBites berbeda?</summary><p>Adonan bayam menjadi identitas BomboBites, dengan pilihan filling matcha, choco, dan ubi ungu. Kami menonjolkan tekstur lembut dan filling creamy.</p></details><details><summary>Kapan pre-order ditutup?</summary><p id="faq-preorder">Pre-order sudah dibuka dan ditutup pada 14 Oktober 2026. Pesanan diambil pada 15 Oktober 2026 di FASILKOM.</p></details><details><summary>Bisa pilih campuran rasa?</summary><p>Kami menyiapkan konsep pilihan satuan dan campuran tiga rasa. Paket yang benar-benar tersedia akan tercantum di form saat pre-order dibuka.</p></details><details><summary>Bagaimana jadwal dan pengambilannya?</summary><p>Pengambilan pesanan pada 15 Oktober 2026 di FASILKOM. Pembayaran lewat QRIS yang tersedia di form; unggah bukti pembayaran sebelum mengirim pesanan.</p></details></div></section>
+  </main>
+  <footer class="footer"><div class="wrap footer-top"><a class="brand footer-brand" href="#home">bombo<span>bites</span><i aria-hidden="true">✦</i></a><p>A little bite of happiness.</p><a data-instagram href="https://instagram.com/bomboo_bites" target="_blank" rel="noopener noreferrer">@bomboo_bites ↗</a></div><div class="wrap footer-bottom"><span>© <span id="year">2026</span> BomboBites · Kelompok 4</span><a href="#home">Kembali ke atas ↑</a></div></footer>
+  <noscript><div class="noscript-notice">Pilihan rasa: Choco, Matcha, dan Ubi Ungu. <a href="https://forms.gle/V3x5QW4d4DjhM1Rh6">Isi form pre-order</a>. PO ditutup 14 Oktober 2026; ambil pesanan 15 Oktober 2026 di FASILKOM.</div></noscript>
+</body>
+</html>
